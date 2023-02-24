@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <tiempo.h>
+#include <time.h>
 /**
 *main - Entry point
 *Return: always 0 (success)
