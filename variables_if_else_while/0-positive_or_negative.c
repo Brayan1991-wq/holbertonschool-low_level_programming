@@ -1,21 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#incluir < stdlib.h >
+#incluir < tiempo.h >
+#incluir < stdio.h >
 /**
-*main - Entry point
-*Return: always 0 (success)
+*  main - Entry point
+*
+*  Return: always 0 (success)
 **/
 int main(void)
 {
 int n;
 
-srand(time(0));
-n =  rand() - RAND_MAX / 2;
+srand(tiempo(0));
+n = al azar() - RAND_MAX / 2;
+/* tu codigo va ahi */
 if (n > 0)
 {
 printf("%d is positive\n", n);
 }
-else if  (n == 0)
+else if (n == 0)
 {
 printf("%d is zero\n", n);
 }
@@ -23,5 +25,5 @@ else
 {
 printf("%d is negative\n", n);
 }
-return (0);
+retorno(0);
 }
