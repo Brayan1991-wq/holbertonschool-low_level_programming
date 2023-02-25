@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <tiempo.h>
+#include <time.h>
 #include <stdio.h>
 /**
 *  main - Entry point
@@ -10,9 +10,9 @@ int main(void)
 {
 int n;
 
-srand(tiempo(0));
-n = al azar() - RAND_MAX / 2;
-/* tu codigo va ahi */
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/*your code goes there */
 if (n > 0)
 {
 printf("%d is positive\n", n);
@@ -25,5 +25,5 @@ else
 {
 printf("%d is negative\n", n);
 }
-retorno(0);
+return (0);
 }
