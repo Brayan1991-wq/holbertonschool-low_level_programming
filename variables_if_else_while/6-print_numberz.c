@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-*  main - Entry point
+*  main - Prints numbers from 0 to 9.
 *  Return: always 0 (success)
 *
-*/
+**/
 int main(void)
 {
 int a;
-for (a = 0; a < 10; a++)
+for (a = 48; a < 58; a++)
 {
 putchar(a);
 }
