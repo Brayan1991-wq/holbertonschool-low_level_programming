@@ -1,2 +1,11 @@
 all: main.c school.c
-        gcc main.c school.c -o school
+	gcc main.c school.c -o school
+	CC = gcc
+	SRC = *.c
+school.c: m.h
+	gcc -c m.h
+main.c: m.h
+	gcc -c m.h
+m.h : stdlib.h stdio.h
+	gcc -c stdlib.h
+
