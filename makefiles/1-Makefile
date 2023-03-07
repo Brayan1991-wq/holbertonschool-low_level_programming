@@ -1,6 +1,4 @@
 school: main.c school.c
         gcc -o school main.c school.c
-cc:Makefiles$ make -f 0-Makefile
-gcc main.c school.c -o school
-
-SRC: .c
+cc = gcc
+SRC = *.c
