@@ -6,12 +6,12 @@ SRC = main.c school.c
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean :
-	rm -f *~ $(NAME)
+	$(RM) -f *~ $(NAME)
 oclean :
-	rm -f $(OBJ)
+	$(RM) -f $(OBJ)
 fclean  :
-	rm -f *~ $(NAME)
-	rm -f $(OBJ)
+	$(RM) -f *~ $(NAME)
+	$(RM) -f $(OBJ)
 re :
 	$(CC)    -c -o $(SRC)
 	$(CC)    -c -o $(SRC)
