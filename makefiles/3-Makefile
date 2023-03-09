@@ -13,6 +13,7 @@ fclean  :
 	$(RM) -f *~ $(NAME)
 	$(RM) -f $(OBJ)
 re :
+	$(RM) -f $(OBJ)
 	$(CC)    -c -o $(SRC)
 	$(CC)    -c -o $(SRC)
 	$(CC) $(OBJ) -o $(NAME)
