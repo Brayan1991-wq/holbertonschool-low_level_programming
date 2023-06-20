@@ -4,7 +4,7 @@
  *
  * Description: prints the size of various types of variables
  *
- * Return: sucess
+ * Return: 0 (Success)
  **/
 int main(void)
 {
