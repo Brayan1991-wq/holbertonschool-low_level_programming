@@ -11,7 +11,7 @@ while (a <= 100)
 {
 if ((a % 5 == 0) && (a % 3 == 0))
 {
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
 else if (a % 5 == 0)
 {
@@ -30,7 +30,7 @@ printf("Fizz ");
 }
 else
 {
-printf("%d", a);
+printf("%d ", a);
 }
 a++;
 }
