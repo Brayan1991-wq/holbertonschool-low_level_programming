@@ -1,6 +1,7 @@
 #ifndef _main_h_
 #define _main_h_
 
+int sqrt_n(int n, int count);
 int _putchar(char c);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
